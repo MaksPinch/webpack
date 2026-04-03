@@ -1,0 +1,31 @@
+{
+  "name": "webpack-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "http-server dist",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaksPinch/webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaksPinch/webpack/issues"
+  },
+  "homepage": "https://github.com/MaksPinch/webpack#readme",
+  "devDependencies": {
+    "babel-loader": "^10.1.1",
+    "css-loader": "^7.1.4",
+    "html-webpack-plugin": "^5.6.6",
+    "http-server": "^14.1.1",
+    "mini-css-extract-plugin": "^2.10.2",
+    "webpack": "^5.105.4",
+    "webpack-cli": "^7.0.2"
+  }
+}
